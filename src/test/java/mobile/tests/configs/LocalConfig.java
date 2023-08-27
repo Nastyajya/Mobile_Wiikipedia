@@ -13,7 +13,7 @@ public interface LocalConfig extends Config {
     String platformName();
 
     @Key("deviceName")
-    @DefaultValue("Pixel 5")
+    @DefaultValue("Samsung Galaxy S21")
     String deviceName();
 
     @Key("osVersion")

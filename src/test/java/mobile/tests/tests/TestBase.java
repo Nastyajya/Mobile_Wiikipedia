@@ -2,6 +2,7 @@ package mobile.tests.tests;
 
 import com.codeborne.selenide.Configuration;
 import io.qameta.allure.selenide.AllureSelenide;
+import mobile.tests.drivers.BrowserstackDriver;
 import mobile.tests.drivers.LocalMobileDriver;
 import mobile.tests.helpers.Attach;
 import org.junit.jupiter.api.AfterEach;
@@ -19,7 +20,7 @@ public class TestBase {
     @BeforeAll
     public static void setup() {
         if (testType == null) {
-            testType = "local";
+            testType = "browserstack";
         }
 
         switch (testType) {
@@ -28,7 +29,7 @@ public class TestBase {
                 System.out.println("local test start");
                 break;
             case "browserstack":
-                Configuration.browser = drivers.BrowserstackMobileDriver.class.getName();
+                Configuration.browser = BrowserstackDriver.class.getName();
                 System.out.println("remote test start");
                 break;
         }

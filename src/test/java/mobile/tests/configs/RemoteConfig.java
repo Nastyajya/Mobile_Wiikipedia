@@ -2,8 +2,9 @@ package mobile.tests.configs;
 
 import org.aeonbits.owner.Config;
 
+@Config.LoadPolicy(Config.LoadType.MERGE)
 @Config.Sources({
-        "classpath:browserstack.properties"
+        "classpath:remote.properties"
 })
 
 public interface RemoteConfig extends Config {
@@ -13,20 +14,21 @@ public interface RemoteConfig extends Config {
     String password();
 
     @Key("app")
-    @DefaultValue("bs://acf4e9f1dc760e262cdd3f0efb5418947b478066")
-    String app();
+    @DefaultValue("bs://06bbfdd1b3bc401b7dbfb49bb490bb60be182b63")
+    String getApp();
 
-    @Key("device")
-    @DefaultValue("Galaxy Note 10")
-    String device();
+    @Key("deviceName")
+    @DefaultValue("Google Pixel 5")
+    String getDeviceName();
 
-    @Key("osVersion")
-    @DefaultValue("9.0")
-    String osVersion();
+    @Key("version")
+    @DefaultValue("12.0")
+    String getVersion();
 
     @Key("baseURL")
     @DefaultValue("http://hub.browserstack.com/wd/hub")
-    String baseURL();
+    String getRemoteWebDriver();
+
 }
 
 
