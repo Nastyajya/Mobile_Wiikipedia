@@ -14,7 +14,7 @@ public interface RemoteConfig extends Config {
     String password();
 
     @Key("app")
-    @DefaultValue("bs://06bbfdd1b3bc401b7dbfb49bb490bb60be182b63")
+    @DefaultValue("bs://b3a8c2e8fd6c9705ba6c622b7db55ac194c0e36b")
     String getApp();
 
     @Key("deviceName")
