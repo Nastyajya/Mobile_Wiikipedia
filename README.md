@@ -83,7 +83,7 @@ With <code><strong>Jenkins</strong></code> reports are generated in <code><stron
 On the video checking the saving of the article
 
 <p align="center">
-  <img title="Selenoid Video" src="media/video/video.mp4">
+  <img title="Browserstack video" src="media/video/video.gif">
 </p>
 
 
