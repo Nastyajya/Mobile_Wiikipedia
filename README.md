@@ -78,7 +78,13 @@ With <code><strong>Jenkins</strong></code> reports are generated in <code><stron
   <img src="media/screenshots/rest_allure.png" alt="testops" width="700">
 </p>
 
+## Sample video test in browserstack
 
+On the video checking the saving of the article
+
+<p align="center">
+  <img title="Selenoid Video" src="media/video/video.mp4">
+</p>
 
 
 
