@@ -1,7 +1,7 @@
 <h1 >Wikipedia mobile app test automation project
 
 <p align="center">
-  <img src="media/Wikipedia-logo.png" alt="Wiki" width="800">
+  <img src="media/Wikipedia-logo.png" alt="Wiki" width="700">
 </p>
 
 - <a href="#tools">Stack of technologies</a>
@@ -64,6 +64,7 @@ With <code><strong>Jenkins</strong></code> reports are generated in <code><stron
 <p align="center">
   <img src="media/screenshots/rest_report.png" alt="jenkins-allure" width="800">
 </p>
+
 <a id="allure-testops"></a>
 ## <img width="4%" title="Allure TestOPS" src="media/logo/Allure_TO.svg"> Integration with [Allure TestOps](https://allure.autotests.cloud/launch/29400)
 
@@ -78,13 +79,6 @@ With <code><strong>Jenkins</strong></code> reports are generated in <code><stron
 </p>
 
 
-<a id="telegram"></a>
-## <img width="4%" title="Telegram" src="media/logo/Telegram.svg"> Telegram notifications using a bot
-After passing all the tests, an automatic report is sent to the <code>Telegram</code> messenger
-
-<p align="center">
-<img title="Telegram Notifications" src="media//screenshots/telegram_rest.png" width="500">
-</p>
 
 
 
