@@ -1,7 +1,7 @@
 <h1 >Wikipedia mobile app test automation project
 
 <p align="center">
-  <img src="media/Wikipedia-logo.png" alt="Wiki" width="700">
+  <img src="media/Wikipedia-logo.png" alt="Wiki" width="500">
 </p>
 
 - <a href="#tools">Stack of technologies</a>
@@ -69,13 +69,13 @@ With <code><strong>Jenkins</strong></code> reports are generated in <code><stron
 ## <img width="4%" title="Allure TestOPS" src="media/logo/Allure_TO.svg"> Integration with [Allure TestOps](https://allure.autotests.cloud/launch/29400)
 
 <p align="center">
-  <img src="media/screenshots/rest__allure.png" alt="testops" width="700">
+  <img src="media/screenshots/rest__allure.png" alt="testops" width="500">
 </p>
 
 ### Test-cases
 
 <p align="center">
-  <img src="media/screenshots/rest_allure.png" alt="testops" width="700">
+  <img src="media/screenshots/rest_allure.png" alt="testops" width="500">
 </p>
 
 ## Sample video test in browserstack
