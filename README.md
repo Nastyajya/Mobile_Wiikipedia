@@ -87,6 +87,14 @@ On the video checking the saving of the article
   <img title="Browserstack video" src="media/video/video.gif">
 </p>
 
+<a id="telegram"></a>
+## <img width="4%" title="Telegram" src="media/logo/Telegram.svg"> Telegram notifications using a bot
+After passing all the tests, an automatic report is sent to the <code>Telegram</code> messenger
+
+<p align="center">
+<img title="Telegram Notifications" src="media//screenshots/telegram_rest.png" width="500">
+</p>
+
 
 
  
