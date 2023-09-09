@@ -44,7 +44,8 @@ gradle clean test
 ### Remote running tests
 
 ```
-gradle clean test  
+gradle clean test 
+-DtestType=browserstack  
 ```
 
 <a id="jenkins-report"></a>
