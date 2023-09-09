@@ -4,12 +4,13 @@ import org.aeonbits.owner.Config;
 
 @Config.LoadPolicy(Config.LoadType.MERGE)
 @Config.Sources({
-        "classpath:remote.properties"
+        "classpath:remote.properties",
+        "classpath:browserstack_credentials.properties"
 })
 
 public interface RemoteConfig extends Config {
 
-    String username();
+    String login();
 
     String password();
 

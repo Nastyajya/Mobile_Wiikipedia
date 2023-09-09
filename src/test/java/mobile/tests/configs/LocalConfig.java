@@ -7,7 +7,6 @@ import org.aeonbits.owner.Config;
 })
 
 public interface LocalConfig extends Config {
-
     @Key("platformName")
     @DefaultValue("android")
     String platformName();

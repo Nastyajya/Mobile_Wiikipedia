@@ -20,7 +20,7 @@ public class TestBase {
     @BeforeAll
     public static void setup() {
         if (testType == null) {
-            testType = "local";
+            testType = "browserstack";
         }
 
         switch (testType) {
