@@ -1,19 +1,19 @@
 plugins {
     id 'java-library'
     id 'io.qameta.allure' version '2.10.0'
-    id "io.freefair.lombok" version "6.0.0-m2"
+    id "io.freefair.lombok" version "6.4.1"
 }
 
 repositories {
     mavenCentral()
 }
 
-def allureVersion = "2.19.0",
-    selenideVersion = "6.9.0",
-    appiumVersion = "8.1.1",
+def allureVersion = "2.20.0",
+    selenideVersion = "6.11.2",
+    appiumVersion = "8.3.0",
     commonsIoVersion = "2.11.0",
     assertJVersion = "3.23.1",
-    slf4jVersion = "1.7.32"
+    slf4jVersion = "2.0.6"
 
 allure {
     report {
@@ -38,7 +38,7 @@ dependencies {
             "io.appium:java-client:$appiumVersion",
             "commons-io:commons-io:$commonsIoVersion",
             "org.assertj:assertj-core:$assertJVersion",
-            "org.junit.jupiter:junit-jupiter:5.9.0",
+            "org.junit.jupiter:junit-jupiter:5.9.2",
             "org.slf4j:slf4j-simple:$slf4jVersion",
             "org.aeonbits.owner:owner:1.0.12"
     )
