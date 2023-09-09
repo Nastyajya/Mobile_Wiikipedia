@@ -1,7 +1,7 @@
 {
   "base": {
     "project": "Mobile project",
-    "environment": "",
+    "environment": "production",
     "comment": "",
     "reportLink": "https://jenkins.autotests.cloud",
     "language": "en",
