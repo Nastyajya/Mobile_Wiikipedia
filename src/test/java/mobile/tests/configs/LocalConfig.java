@@ -1,4 +1,5 @@
 package mobile.tests.configs;
+
 import org.aeonbits.owner.Config;
 
 

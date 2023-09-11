@@ -9,13 +9,14 @@ import org.aeonbits.owner.Config;
 })
 
 public interface RemoteConfig extends Config {
-
+    @Key("login")
     String login();
 
+    @Key("password")
     String password();
 
     @Key("app")
-    @DefaultValue("bs://b3a8c2e8fd6c9705ba6c622b7db55ac194c0e36b")
+    @DefaultValue("bs://5fa8f217888f854c02af03a318a102227aa2750b")
     String getApp();
 
     @Key("deviceName")

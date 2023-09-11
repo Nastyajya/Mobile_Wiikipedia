@@ -48,22 +48,23 @@ public class WikiTests extends TestBase {
             $(AppiumBy.id("org.wikipedia.alpha:id/page_list_item_title")).shouldHave(text("Perseids"));
         });
     }
-        @Test
-        void addLanguageTest () {
-            back();
-            step("Сlick on the search bar", () -> {
-                $(AppiumBy.id("org.wikipedia.alpha:id/search_container")).click();
-            });
-            step("Go to language change tab", () -> {
+
+    @Test
+    void addLanguageTest() {
+        back();
+        step("Сlick on the search bar", () -> {
+            $(AppiumBy.id("org.wikipedia.alpha:id/search_container")).click();
+        });
+        step("Go to language change tab", () -> {
             $(AppiumBy.id("org.wikipedia.alpha:id/search_lang_button")).click();
             $(AppiumBy.className("android.widget.ImageView")).click();
-            });
-            step("Select language", () -> {
+        });
+        step("Select language", () -> {
             $$(AppiumBy.id("org.wikipedia.alpha:id/localized_language_name")).findBy(text("Français")).click();
-            });
-            step("Make sure the selected language is added", () -> {
+        });
+        step("Make sure the selected language is added", () -> {
             $$(AppiumBy.className("android.widget.TextView")).findBy(text("Français")).shouldBe(visible);
-            });
+        });
     }
-    }
+}
 
