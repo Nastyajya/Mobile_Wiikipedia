@@ -41,5 +41,7 @@ bin/
 ### Mac OS ###
 .DS_Store
 /src/test/resources/remote.properties
+/src/test/resources/local.properties
+/src/test/resources/browserstack_credentials.properties
 /gradlew
 /gradlew.bat
